@@ -97,7 +97,6 @@
     - Fix being unable to see a test case's embedded images when [exported to another product](../Spira-User-Manual/Application-Wide.md/#export-to-another-product), if the user is not a member of the source product [IN:11377]
     - Fix being unable to see an incident's embedded images when [exported to another product](../Spira-User-Manual/Application-Wide.md/#export-to-another-product), if the user is not a member of the source product [IN:11375]
     - Fix dragging cards in the Unassigned Items column on [product boards](../Spira-User-Manual/Application-Wide.md/#boards) not placing the cards in the correct place, but instead always putting them at the bottom [IN:11416]
-    - Fix not being able to see full custom field text of test step during the execution (normal and exploratory) [IN:4245]
     - Fix onboarding link for 8.12 for export to test set feature [IN:11448]
     - Fix [Test Set Export](../Spira-User-Manual/Application-Wide.md/#export-to-another-product) not being able to export a test set that contains test cases from other products without error, by not exporting such test cases [IN:11478]
     - Fix [Test Set Export](../Spira-User-Manual/Application-Wide.md/#export-to-another-product) so that so exported Test Set Test Cases with Parameters have their values properly set for test execution [IN:11458]
