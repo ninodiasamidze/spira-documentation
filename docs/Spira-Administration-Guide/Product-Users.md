@@ -22,9 +22,7 @@ This page displays a row for each member of the current product, with the follow
 - Email (not shown by default)
 - Active (not shown by default)
 
-**Note:**
-For users, to be able to access the Product and its artifacts, they should be assigned to the role that is currently active.
-In case the user has been assigned to the product with a specific role, and that role later changed to Inactive, then the user will not be able to access that Product or any artifacts in it. The user will be returned to the My Page with an authorization error message when attemptting to do so.
+**Note**: For users to be able to access the product make sure their product role is active. If the role is or becomes inactive, the user will not be able to access the product or any of its artifacts.
 
 
 ### Organizing and filtering
@@ -58,5 +56,6 @@ Note that you cannot add a user with just a team, to be added to the product the
 Spira lets product admins take teams that have been created at the system level, and assign product members to any active team on a product by product basis. You can use these teams in different ways in different products, but the most common way is to group people together based on your organizational or functional structure.
 
 Team membership is managed by the combined Team and Product Membership page described above.
+
 
 
