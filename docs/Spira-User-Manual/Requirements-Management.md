@@ -204,7 +204,6 @@ If the **Tree** view is selected, which refers to the hierarchycal view, then th
 
 ![](img/Requirements_Management_TreeView.png)
 
-In case there is no even one requirement without children that meets current filtering criteria, then the list of results will be empty.  
 If you choose **List** so to have just a list of requirements regardless of their position in the hierarchy, then the result of the filtering will be items with no hierarchycal identifiers.
 
 ![](img/Requirements_Management_ListView.png)
@@ -629,5 +628,6 @@ Read more about [how to manage and add associations to this artifact](Applicatio
 Requirements with a list of defined steps displays an extra tab called "Diagram". This display the list of steps as a process flow diagram rather than as a simple list.
 
 ![](img/requirements-use-case-diagram.png)
+
 
 You still write the scenario in the main [Overview tab](#overview-scenario) as a list of steps, however that list of steps will render as a diagram on this tab. Every step is displayed in the diagram. To make the diagram easier to read, only the first part of the step description is rendered in the diagram.
