@@ -199,8 +199,8 @@ Choosing an indent level from the 'Show Level' drop down box allows you to quick
 
 ### Filtering
 
-Filtering items on list pages depends which view you have currently selected: Tree or List.
-If the **Tree** view is selected, which refers to the hierarchycal view, then the result of the filtering will be items which do not have any children, but can be a child of other (parent) requirement. After that the parents getting populated and results structured as a tree view. 
+Filtering items on requirement list pages depends which view you have currently selected: Tree or List.
+If the **Tree** view is selected, which refers to the hierarchical view, filtering will show all requirements matching the filter, as well as all parents of any matching requirements. This will show, for each matching requirement, its hierarchy. 
 
 ![](img/Requirements_Management_TreeView.png)
 
@@ -629,5 +629,6 @@ Read more about [how to manage and add associations to this artifact](Applicatio
 Requirements with a list of defined steps displays an extra tab called "Diagram". This display the list of steps as a process flow diagram rather than as a simple list.
 
 ![](img/requirements-use-case-diagram.png)
+
 
 You still write the scenario in the main [Overview tab](#overview-scenario) as a list of steps, however that list of steps will render as a diagram on this tab. Every step is displayed in the diagram. To make the diagram easier to read, only the first part of the step description is rendered in the diagram.
